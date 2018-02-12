@@ -44,6 +44,10 @@ public class LLQueue implements Queue
         return head;
     }
 
+    public long getSize() {
+        return size;
+    }
+
     public void insertHead(Object el){
         Node oldhead = head;
         head = new Node(el, oldhead);

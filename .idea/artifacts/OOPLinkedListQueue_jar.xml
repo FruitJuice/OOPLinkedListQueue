@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="OOPLinkedListQueue:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OOPLinkedListQueue_jar</output-path>
+    <root id="archive" name="OOPLinkedListQueue.jar">
+      <element id="module-output" name="OOPLinkedListQueue" />
+    </root>
+  </artifact>
+</component>

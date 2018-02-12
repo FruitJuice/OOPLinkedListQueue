@@ -5,6 +5,5 @@ public interface Queue {
 
     // others
     public boolean isEmpty();       // true if queue is empty
-    public boolean isFull();      	// true if queue is full (if it has limited storage)
     public Object  front(); 		// examine front object on queue without removing it
 }

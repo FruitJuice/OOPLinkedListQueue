@@ -25,7 +25,7 @@ public class LLQueue implements Queue
 
     public Object dequeue()
     {
-        if (head == null)
+        if (isEmpty())
             return null; // Can't do anything if it's empty
 
         Object returnHead = head.getElement();
